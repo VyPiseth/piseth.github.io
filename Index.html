@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="icon" href="img/logo portfolio.png" type="image/png"> <!-- For PNG format -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#cv">View CV</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section id="hero">
+        <div class="intro">
+            <h1>Hello, I'm VY PISETH</h1>
+            <p>Welcome to my portfolio website!</p>
+            <button onclick="downloadCV()">Download My CV</button>
+        </div>
+    </section>
+    
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="img/seth.jpg" alt="My Profile Picture">
+            <p id="about-text">
+                I am writing to express my interest in the IT Assistance position at MAJOR & CAREER as advertised 
+                on the Facebook page. With a solid foundation in IT support, along with experience in computer 
+                troubleshooting and maintenance, I am excited about the opportunity to contribute to your team.
+                <span id="more-text" style="display: none;">
+                    I am currently a second-year associate degree student in IT at Asia HRDI, where I have developed a 
+                    solid understanding of IT systems and support. My experience as an IT Support Specialist at the Asian Human 
+                    Resource Development Institute in Cambodia has enhanced my expertise in providing technical assistance, 
+                    hardware and software troubleshooting, and ensuring the smooth running of IT infrastructure. In particular, I 
+                    was successful in my internship at the school.
+                    ❖ Diagnosing and troubleshooting hardware, technical and software issues.
+                    ❖ Installation, configuration and maintenance of computer systems and networks.
+                    ❖ Provide technical support to end users and ensure timely solution of IT related issues.
+                    ❖ Documenting and maintaining accurate records of technical issues and solutions.
+                    I am confident that my technical skills, problem solving skills and dedication to providing good IT 
+                    support are in line with your team goals.
+                </span>
+            </p>
+            <button id="see-more-btn" onclick="seeMore()">See More</button>
+        </div>
+    </section>
+    
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="img/html.png" alt="HTML Icon">
+                <h3>HTML</h3>
+                <p>Experienced in creating semantic and accessible HTML structures.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="img/CSS-Logo.png" alt="CSS Icon">
+                <h3>CSS</h3>
+                <p>Proficient in styling, responsive design, and CSS frameworks like Bootstrap.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="img/js.png" alt="JavaScript Icon">
+                <h3>JavaScript</h3>
+                <p>Skilled in ES6+, DOM manipulation, and using libraries like jQuery.</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="img/php5.png" alt="PHP Icon">
+                <h3>PHP</h3>
+                <p>Experienced in server-side scripting and working with databases.</p>
+            </div>
+        </div>
+       
+        <div class="card2">
+        <!-- card2 copy -->
+        <div class="skills-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="img/network.png" alt="HTML Icon">
+                <h3>Network</h3>
+                <p>I can configuration and manternamt laptop and computer the same Basice.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="img/english.png" alt="CSS Icon">
+                <h3>English</h3>
+                <p>Basice speank and good writing skill.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="img/social-workers-png.png" alt="JavaScript Icon">
+                <h3>Social Work </h3>
+                <p>Skilled I learn from scholl and do with all student.</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="img/microsoft.png" alt="PHP Icon">
+                <h3>Microsoft</h3>
+                <p>I can use Work Excel and Powerpoint.</p>
+            </div>
+        </div>
+    </div>
+         <!-- end card2 copy-->
+    </section>
+    
+    
+    <section id="cv">
+        <h2>My CV</h2>
+        <iframe src="docs/CURRICULUM VITAE.pdf" title="My CV" width="600" height="500"></iframe>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+            <div class="contact-info">
+                <p>Contact:</p>
+                <ul>
+                    <li><a href="tel:+1234567890"><i class="fas fa-phone"></i> +123 456 7890</a></li>
+                    <li><a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="https://x.com/yourprofile" target="_blank"><i class="fab fa-x"></i> X</a></li>
+                    <li><a href="https://t.me/yourprofile" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
